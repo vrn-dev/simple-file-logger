@@ -1,0 +1,25 @@
+{
+  "name": "simple-file-logger",
+  "version": "0.1.0",
+  "description": "Simple logger library to log to rotating files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrn-dev/simple-file-logger.git"
+  },
+  "keywords": [
+    "Logging",
+    "file-logging",
+    "file",
+    "rotating"
+  ],
+  "author": "VRN.dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vrn-dev/simple-file-logger/issues"
+  },
+  "homepage": "https://github.com/vrn-dev/simple-file-logger#readme"
+}
