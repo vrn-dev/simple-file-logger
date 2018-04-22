@@ -1,9 +1,10 @@
 {
-  "name": "simple-file-logger",
+  "name": "@vrn.dev/simple-file-logger",
   "version": "0.1.0",
   "description": "Simple logger library to log to rotating files",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "tsc && node dist/index.js",
     "test": "node index.js"
   },
   "repository": {
@@ -21,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/vrn-dev/simple-file-logger/issues"
   },
-  "homepage": "https://github.com/vrn-dev/simple-file-logger#readme"
+  "homepage": "https://github.com/vrn-dev/simple-file-logger#readme",
+  "devDependencies": {
+    "@types/node": "^9.6.6",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "moment": "^2.22.1"
+  }
 }
